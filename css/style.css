@@ -1,0 +1,119 @@
+*{
+background-color: #ECE5DD;
+color: #128C7E;
+font-family: Roboto, "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.body{
+	background-color:;
+	color: whitesmoke;
+	line-height: 1.6;
+}
+.header{
+	background: #111;
+	padding: 1.5rem 2rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 1px solid #222;
+}
+
+
+.form{
+	padding: 10px 10px;
+	border-radius: 20px;
+	display: block;
+	background-color: white;
+	width: 50%;
+	margin-top:30px;
+}
+.input{
+	margin: 20;
+}
+.footer{
+	text-align: center;
+	background-color: aquamarine;
+	justify-content: center;
+}
+.button{
+	      text-align: center;
+	     font-weight: bold;
+	     cursor: pointer;
+     cta-btn:hoover; background-color: ; transform: translateY(10px) ;
+
+
+}
+
+.button a:hover{color: green;}
+
+.log img{
+width: 200px;
+height: auto;
+text-align:center;
+border: #111;
+border-radius: 20%;
+}
+.img{
+	height: ;
+}
+/*Responsive design*/
+@media(max-width: 900px){
+	.form{
+		width: 50%;
+		height: 50%;
+	}
+}
+
+
+
+
+.button button {
+    background-color: #25D366; 
+    color: ;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px; 
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+    margin: 20px auto;
+    display: block; }
+
+
+.button button:hover {
+    background-color: #1DBB5F; /* Slightly darker green on hover */
+    /* Corrected hover/transform syntax */
+    transform: translateY(-2px); 
+}
+
+.button a {
+    text-decoration: none;
+    color: ;
+}
+
+
+footer {
+    text-align: center;
+    /* Changed aquamarine to a better-matching light gray */
+    background-color: #F0F0F0; 
+    padding: 15px 0;
+    margin-top: 40px;
+    color: #555;
+}
+
+/* Responsive Design Improvement */
+@media(max-width: 900px){
+	.form{
+		width: 90%; /* Increase width on smaller screens for better usability */
+		max-width: none;
+	}
+}
+
+.editedimages{
+	display: flex;
+	gap: 20px;
+	height: auto;
+	max-width: 90%;
+}
